@@ -17,8 +17,9 @@ Thank you for helping AI speak to people who should not need a technical vocabul
 2. Explain who got stuck, where, and what decision they needed to make.
 3. Avoid adding a new unexplained technical term to explain the old one.
 4. Add or update an evaluation case for behavior changes.
-5. Run the checks listed in `evals/release-review-v0.1.1.md`.
-6. Remove names, emails, phone numbers, API keys, tokens, private URLs, and real customer data.
+5. Classify the change under `VERSIONING.md`. If it changes protocol meaning, user decisions, hard failures, or conformance, add migration notes, evaluation coverage, and a `CHANGELOG.md` entry.
+6. Run the checks listed in the current `evals/release-review-*.md`.
+7. Remove names, emails, phone numbers, API keys, tokens, private URLs, and real customer data.
 
 ## Language
 

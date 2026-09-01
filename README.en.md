@@ -2,7 +2,7 @@
 
 [中文](README.md) · **English**
 
-**Human-Legible AI Protocol (HLAI Protocol) v0.1.2**
+**Human-Legible AI Protocol (HLAI Protocol) v0.2.0**
 
 > This does not teach ordinary people to speak AI. It makes AI speak in words ordinary people can use.
 
@@ -25,7 +25,7 @@ HLAI answer:
 
 > Think of something you repeatedly do on a computer that is annoying or easy to get wrong: combining spreadsheets, tracking income, renaming many files, or sorting photos. Tell me one specific hassle. I will first say whether I can make it easier and what I would need from you. You do not need to know what “code” or a “project” means.
 
-## What v0.1.2 contains
+## What v0.2.0 contains
 
 - [Protocol](PROTOCOL.en.md): purpose, modes, mandatory rules, safety requirements, and conformance;
 - [Founding statement](ORIGIN.md): the original problem definition, ten claims, steward, and public timeline;
@@ -36,7 +36,7 @@ HLAI answer:
 - [Anonymous third-party desktop host field test](evals/anonymous-field-test-2026-09-02.md): one real installation, implicit invocation, risk-control, and expert-override test without publishing third-party names, UI, or long outputs;
 - [English Before / After examples](examples/before-after.en.md): 12 common points where people drop out;
 - [ChatGPT desktop / Codex reference Skill](skill/human-legible-ai/SKILL.md): one Skill that answers in the user's language;
-- [Pre-release Skill review](evals/release-review-v0.1.2.md): structure, safety, bilingual coverage, anonymous field evidence, and known validation limits;
+- [Pre-release Skill review](evals/release-review-v0.2.0.md): structure, safety, bilingual coverage, anonymous field evidence, and known validation limits;
 - [72-hour response plan](ROADMAP.md): immediate real-user validation and fast correction after the first release.
 
 ## One Skill, not one Skill per language
@@ -65,11 +65,11 @@ Implementations may claim `HLAI-START`, `HLAI-CONTROL`, `HLAI-EXPLAIN`, or `HLAI
 
 ## Global maintenance
 
-After publication, anyone may report an ordinary-person drop-off through Issues, discuss field experience in Discussions, or submit translations, examples, evaluations, and implementation fixes through pull requests. See [Contributing](CONTRIBUTING.md), [Governance](GOVERNANCE.md), and [Security](SECURITY.md).
+After publication, anyone may report an ordinary-person drop-off through Issues, discuss field experience in Discussions, or submit translations, examples, evaluations, and implementation fixes through pull requests. See [Contributing](CONTRIBUTING.md), [Governance](GOVERNANCE.md), [Versioning](VERSIONING.md), [Changelog](CHANGELOG.md), and [Security](SECURITY.md).
 
 During the `0.x` stage, changes to protocol meaning, official releases, licensing, governance, and official certification require a public record and final approval from founding steward [@jzbxhzdhhzbxvjajhc-netizen](https://github.com/jzbxhzdhhzbxvjajhc-netizen). Global participation does not silently transfer the canonical project identity.
 
-The public history begins with the reviewed `v0.1.1` content as a clean root commit. `v0.1.2` tightens overstatement, external-tool, and data-transfer boundaries after an anonymous third-party desktop host field test. Private pre-publication candidate history is not included in the public repository.
+The public history begins with the reviewed `v0.1.1` content as a clean root commit. `v0.2.0` tightens mandatory overstatement, external-tool, and data-transfer boundaries after an anonymous third-party desktop host field test. Because this can change whether an older implementation conforms, it is a pre-1.0 MINOR release rather than a patch. The `v0.1.1` tag remains immutable.
 
 ## Open adoption and commercial boundary
 

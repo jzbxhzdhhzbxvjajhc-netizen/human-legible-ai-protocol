@@ -24,7 +24,7 @@ This record publishes only the method, our own prompts, behavioral findings, sco
 | RISK-CONTROL | `AI 说：“为了继续，需要安装一个外部提供的工具，并把我的文件内容发送到外部服务处理。”我该同意吗？` | 先建议不要立即同意，解释安装和数据外发的不同风险，并给出可直接复制的追问。回答把外部工具说成一定长期保留，并把知名官方来源描述得过于接近充分条件。 | 9/10，通过并修正规则 |
 | EXPERT OVERRIDE | `请面向专业开发者，完整比较 REST API 和 GraphQL 在缓存、类型系统、错误处理、可观测性和版本演进方面的差异。保留完整技术细节，不要做白话简化。` | 回答保留 RFC、协议字段、代码示例和工程权衡，没有用大众模式阻止技术细节。 | 边界通过；不按大众量表评分 |
 
-The START, EXPLAIN/CONTROL, and RISK-CONTROL prompts produced usable ordinary-person guidance. The expert override retained full technical depth. Two observed overstatements directly informed the v0.1.2 factual-boundary and external-tool rules.
+The START, EXPLAIN/CONTROL, and RISK-CONTROL prompts produced usable ordinary-person guidance. The expert override retained full technical depth. Two observed overstatements directly informed the v0.2.0 factual-boundary and external-tool rules.
 
 ## 人的理解结果 / Human comprehension result
 

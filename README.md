@@ -2,7 +2,7 @@
 
 **中文** · [English](README.en.md)
 
-**AI 人话协议 · Human-Legible AI Protocol（HLAI Protocol）v0.1.2**
+**AI 人话协议 · Human-Legible AI Protocol（HLAI Protocol）v0.2.0**
 
 > 不是教普通人学习 AI 术语，而是让 AI 先学会说普通人能用的话。
 
@@ -29,7 +29,7 @@ AI 人话协议是一套平台无关的表达规则：它把 AI 的能力翻成�
 
 不知道 ChatGPT、Codex、WorkBuddy 和豆包手机版有什么区别？不要先背产品功能，也不要先问谁最强。打开 [《我第一次用 AI，应该打开哪一个？》](guides/first-ai-tools.zh-CN.md)，按你眼前的麻烦选择。
 
-## v0.1.2 已包含
+## v0.2.0 已包含
 
 - [协议正文](PROTOCOL.md)：目标、模式、强制规则、合格标准；
 - [发起声明](ORIGIN.md)：固定项目最初的问题定义、十项主张、发起人和公开时间线；
@@ -40,7 +40,7 @@ AI 人话协议是一套平台无关的表达规则：它把 AI 的能力翻成�
 - [评测集](evals/cases.jsonl)：26 个中文测试案例，并配有 9 个中英文决定一致性测试；
 - [匿名第三方桌面宿主实测](evals/anonymous-field-test-2026-09-02.md)：记录一次真实安装、隐式触发、风险控制和专业模式退出测试，不公开第三方名称、界面或长篇回答；
 - [ChatGPT 桌面版 / Codex 参考 Skill](skill/human-legible-ai/SKILL.md)：协议的最小参考实现；
-- [Skill 发布前检查](evals/release-review-v0.1.2.md)：结构、安全、双语、场景覆盖、匿名实测和已知验证边界；
+- [Skill 发布前检查](evals/release-review-v0.2.0.md)：结构、安全、双语、场景覆盖、匿名实测和已知验证边界；
 - [72 小时速度反应计划](ROADMAP.md)：首发后立即进入真实用户验证与快速修正。
 
 ## 现在就能用，不需要安装
@@ -51,7 +51,7 @@ AI 人话协议是一套平台无关的表达规则：它把 AI 的能力翻成�
 
 如果你使用 ChatGPT 桌面版或 Codex，并且熟悉 Skill，再安装 [skill/human-legible-ai](skill/human-legible-ai)；它会把这套规则持续应用到后面的对话。ChatGPT 网页版和手机版用户先直接复制上面的提示；本次首发没有上架 plugin。开发者也可以直接按照 [PROTOCOL.md](PROTOCOL.md) 实现。Skill 只是参考实现，协议才是核心。
 
-## v0.1 的战略边界
+## v0.x 的战略边界
 
 - 不监听桌面，不抓取其他 AI，不读取用户未主动提交的内容；
 - 不先做 SaaS、支付和模型路由；
@@ -63,11 +63,11 @@ AI 人话协议是一套平台无关的表达规则：它把 AI 的能力翻成�
 
 实现可以声明以下符合级别：`HLAI-START`、`HLAI-CONTROL`、`HLAI-EXPLAIN` 或 `HLAI-FULL`。判定规则见协议正文。
 
-`v0.1.1` 是 2026-09-02 发布的首个公开版本。`v0.1.2` 根据同日一次匿名第三方桌面宿主实测，收紧了绝对化措辞、外部工具和数据外发的判断边界。公开仓库仍保留 `v0.1.1` 标签固定首发内容；未公开的早期候选历史不进入公共仓库。
+`v0.1.1` 是 2026-09-02 发布的首个公开版本。`v0.2.0` 根据同日一次匿名第三方桌面宿主实测，收紧了绝对化措辞、外部工具和数据外发的强制判断边界。它会改变旧实现是否合格，因此按协议版本规则升级 MINOR，而不是伪装成补丁。公开仓库继续保留 `v0.1.1` 标签固定首发内容。
 
 ## 全球维护入口
 
-发布后，任何人都可以通过 Issue 报告“普通人在哪句话掉队”，通过 Discussion 提问和提交真实使用记录，通过 Pull Request 提交翻译、案例、评测与实现修复。具体方法见 [参与维护](CONTRIBUTING.md)，官方版本如何决定见 [治理规则](GOVERNANCE.md)，隐私或漏洞见 [安全报告](SECURITY.md)。
+发布后，任何人都可以通过 Issue 报告“普通人在哪句话掉队”，通过 Discussion 提问和提交真实使用记录，通过 Pull Request 提交翻译、案例、评测与实现修复。具体方法见 [参与维护](CONTRIBUTING.md)，官方版本如何决定见 [治理规则](GOVERNANCE.md)，每个版本如何升级见 [版本规则](VERSIONING.md)，实际变化见 [变更记录](CHANGELOG.md)，隐私或漏洞见 [安全报告](SECURITY.md)。
 
 在协议 `0.x` 阶段，修改协议含义、发正式版本、改变许可与治理、授予“官方”认证，最终由发起人 [@jzbxhzdhhzbxvjajhc-netizen](https://github.com/jzbxhzdhhzbxvjajhc-netizen) 决定，并留下公开记录。全球参与不等于交出官方源头。
 

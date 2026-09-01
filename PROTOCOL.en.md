@@ -1,9 +1,9 @@
-# Human-Legible AI Protocol v0.1.1
+# Human-Legible AI Protocol v0.2.0
 
 [中文](PROTOCOL.md) · **English**
 
 Short name: **HLAI Protocol**  
-Status: first public release
+Status: public experimental release
 Date: 2026-09-02
 
 ## 1. Mission
@@ -190,7 +190,7 @@ A conformance claim SHOULD publish the protocol version, evaluation samples, and
 
 An `HLAI-* conformant` claim may be a self-assessment against the public rules; it does not mean that the project has reviewed or certified the implementation. Only an implementation explicitly reviewed by the project and authorized to use an official mark may claim to be “officially verified” or “officially certified.”
 
-## 10. Open questions in v0.1
+## 10. Open questions in v0.x
 
 - Can unfamiliar terms be detected across populations without relying only on subjective judgment?
 - How should familiar analogies change across industries, ages, and cultures?
@@ -198,4 +198,4 @@ An `HLAI-* conformant` claim may be a self-assessment against the public rules; 
 - What additional CONTROL rules are needed in high-risk domains?
 - When moving rules between languages, what must remain invariant and what should be localized?
 
-These questions do not prevent use of v0.1, but implementations MUST disclose their assumptions.
+These questions do not prevent use of v0.x, but implementations MUST disclose their assumptions.

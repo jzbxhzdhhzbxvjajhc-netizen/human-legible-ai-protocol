@@ -6,10 +6,10 @@ This policy concerns project identity. It does not change the copyright licenses
 
 ## Allowed without separate permission
 
-- truthful statements such as “implements Human-Legible AI Protocol v0.1.1”;
+- truthful statements such as “implements Human-Legible AI Protocol v0.2.0”;
 - linking to, discussing, reviewing, or criticizing the project;
 - retaining required attribution and license notices;
-- naming a compatible implementation in a way that clearly identifies its independent source, for example “Acme Translator — compatible with HLAI Protocol v0.1.1”.
+- naming a compatible implementation in a way that clearly identifies its independent source, for example “Acme Translator — compatible with HLAI Protocol v0.2.0”.
 
 ## Requires written permission
 

@@ -33,6 +33,9 @@ The release stops if any required item fails.
 
 ## Release integrity
 
+- [ ] The change is classified under `VERSIONING.md`; normative changes include migration notes and updated evaluations.
+- [ ] `CHANGELOG.md`, `VERSION`, `CITATION.cff`, protocol headings, review notes, tag, and archive names agree on the release version.
+- [ ] No published tag or release content has been silently replaced.
 - [ ] Working tree is clean.
 - [ ] The public commit author is intentional.
 - [ ] Public history begins at the reviewed release commit; no pre-publication MIT commit or release-candidate tag is pushed.

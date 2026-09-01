@@ -49,6 +49,8 @@ Authority over licensing applies only to future versions and only where the proj
 
 No silent change may redefine an already published protocol version. Corrections that change meaning require a new version.
 
+Every proposed change must be classified under `VERSIONING.md`. A normative change requires a migration note, updated evaluation evidence, and a `CHANGELOG.md` entry. The founding steward approves the final classification during the `0.x` stage. Published tags are immutable; a correction is a new version, never a replacement with the same number.
+
 ## Maintainer window
 
 The project is ready to receive global reports and proposed changes through GitHub Issues, Discussions, and pull requests once those features are enabled. The public maintainer list begins with the founding steward. New maintainers must be named in `MAINTAINERS.md`, with their scope and appointment recorded publicly.

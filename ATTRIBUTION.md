@@ -6,7 +6,7 @@ This file gives a safe, simple way to satisfy the attribution requirement. It do
 
 Use a visible note like this:
 
-> Based on Human-Legible AI Protocol v0.1.1 by founding steward jzbxhzdhhzbxvjajhc-netizen and Human-Legible AI Protocol contributors, licensed under CC BY-SA 4.0. Changes were made. Canonical source and contributor history: https://github.com/jzbxhzdhhzbxvjajhc-netizen/human-legible-ai-protocol
+> Based on Human-Legible AI Protocol v0.2.0 by founding steward jzbxhzdhhzbxvjajhc-netizen and Human-Legible AI Protocol contributors, licensed under CC BY-SA 4.0. Changes were made. Canonical source and contributor history: https://github.com/jzbxhzdhhzbxvjajhc-netizen/human-legible-ai-protocol
 
 If you did not change the material, replace `Changes were made` with `Unmodified`.
 
@@ -23,7 +23,7 @@ GitHub will also read `CITATION.cff` and show a **Cite this repository** entry w
 
 转载、翻译或改写协议内容时，可直接写：
 
-> 本内容基于发起人 jzbxhzdhhzbxvjajhc-netizen 与项目贡献者共同署名的《AI 人话协议（Human-Legible AI Protocol）》v0.1.1，采用 CC BY-SA 4.0 许可；本文做过修改。官方源地址与贡献历史：https://github.com/jzbxhzdhhzbxvjajhc-netizen/human-legible-ai-protocol
+> 本内容基于发起人 jzbxhzdhhzbxvjajhc-netizen 与项目贡献者共同署名的《AI 人话协议（Human-Legible AI Protocol）》v0.2.0，采用 CC BY-SA 4.0 许可；本文做过修改。官方源地址与贡献历史：https://github.com/jzbxhzdhhzbxvjajhc-netizen/human-legible-ai-protocol
 
 没改过就把“本文做过修改”换成“内容未修改”。署名不是一句空泛的“来源网络”，而是让读者能找到原项目、原版本和许可。
 
