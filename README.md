@@ -2,7 +2,7 @@
 
 **中文** · [English](README.en.md)
 
-**AI 人话协议 · Human-Legible AI Protocol（HLAI Protocol）v0.1.1**
+**AI 人话协议 · Human-Legible AI Protocol（HLAI Protocol）v0.1.2**
 
 > 不是教普通人学习 AI 术语，而是让 AI 先学会说普通人能用的话。
 
@@ -29,7 +29,7 @@ AI 人话协议是一套平台无关的表达规则：它把 AI 的能力翻成�
 
 不知道 ChatGPT、Codex、WorkBuddy 和豆包手机版有什么区别？不要先背产品功能，也不要先问谁最强。打开 [《我第一次用 AI，应该打开哪一个？》](guides/first-ai-tools.zh-CN.md)，按你眼前的麻烦选择。
 
-## v0.1.1 已包含
+## v0.1.2 已包含
 
 - [协议正文](PROTOCOL.md)：目标、模式、强制规则、合格标准；
 - [发起声明](ORIGIN.md)：固定项目最初的问题定义、十项主张、发起人和公开时间线；
@@ -37,9 +37,10 @@ AI 人话协议是一套平台无关的表达规则：它把 AI 的能力翻成�
 - [项目评估](ASSESSMENT.md)：价值判断、差异、风险与战略边界；
 - [首批 Before / After](examples/before-after.zh-CN.md)：12 个大众真实掉队点；
 - [第一次选 AI 工具](guides/first-ai-tools.zh-CN.md)：用生活场景解释 ChatGPT、Codex、WorkBuddy 与豆包手机版，并提供英文等义版；
-- [评测集](evals/cases.jsonl)：25 个中文测试案例，并配有 9 个中英文决定一致性测试；
+- [评测集](evals/cases.jsonl)：26 个中文测试案例，并配有 9 个中英文决定一致性测试；
+- [匿名第三方桌面宿主实测](evals/anonymous-field-test-2026-09-02.md)：记录一次真实安装、隐式触发、风险控制和专业模式退出测试，不公开第三方名称、界面或长篇回答；
 - [ChatGPT 桌面版 / Codex 参考 Skill](skill/human-legible-ai/SKILL.md)：协议的最小参考实现；
-- [Skill 发布前检查](evals/release-review-v0.1.1.md)：结构、安全、双语、场景覆盖和已知验证边界；
+- [Skill 发布前检查](evals/release-review-v0.1.2.md)：结构、安全、双语、场景覆盖、匿名实测和已知验证边界；
 - [72 小时速度反应计划](ROADMAP.md)：首发后立即进入真实用户验证与快速修正。
 
 ## 现在就能用，不需要安装
@@ -62,7 +63,7 @@ AI 人话协议是一套平台无关的表达规则：它把 AI 的能力翻成�
 
 实现可以声明以下符合级别：`HLAI-START`、`HLAI-CONTROL`、`HLAI-EXPLAIN` 或 `HLAI-FULL`。判定规则见协议正文。
 
-`v0.1.1` 是 2026-09-02 发布的首个公开版本。公开仓库从这份完成许可与安全审查的内容建立干净的首个提交，并使用 `v0.1.1` 标签固定本次发布内容；未公开的早期候选历史不进入公共仓库。
+`v0.1.1` 是 2026-09-02 发布的首个公开版本。`v0.1.2` 根据同日一次匿名第三方桌面宿主实测，收紧了绝对化措辞、外部工具和数据外发的判断边界。公开仓库仍保留 `v0.1.1` 标签固定首发内容；未公开的早期候选历史不进入公共仓库。
 
 ## 全球维护入口
 

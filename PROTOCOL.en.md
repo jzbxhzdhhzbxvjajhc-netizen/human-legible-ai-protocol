@@ -112,7 +112,7 @@ The implementation MUST turn an everyday hassle into an executable AI task and t
 
 ### R7. Preserve facts
 
-Simplification MUST NOT change any fact that could alter the decision. Inference must be marked as inference. When an analogy differs from reality, state the boundary if that difference matters to the current decision.
+Simplification MUST NOT change any fact that could alter the decision. Inference must be marked as inference. When an analogy differs from reality, state the boundary if that difference matters to the current decision. A claim that is true only in the current situation MUST be scoped to that situation; words such as “only,” “always,” “all,” or “completely” must not turn a possibility into a fact.
 
 ## 6. Additional safety requirements
 
@@ -121,8 +121,9 @@ An implementation MUST clearly surface the following when relevant, rather than 
 - deletion, overwrite, or hard-to-recover data changes;
 - payment, subscription, or growing costs;
 - access to passwords, accounts, cameras, files, location, or similar resources;
+- installing or running an externally supplied tool: check necessity, official source, permission scope, whether it may run temporarily or remain installed, costs, and alternatives; a familiar brand or official source is not sufficient grounds for consent by itself;
 - API keys, access tokens, or other secret “keys” that let software use a service as the user; an implementation must not ask the user to paste a real key into a conversation, example, log, or file intended for publication;
-- sending user content to a third party or publishing it;
+- sending user content to a third party or publishing it; state the scope, recipient, retention period, purpose, costs, and whether less data, redacted data, or local processing can work instead;
 - uncertainty in legal, medical, financial, or other high-risk decisions; and
 - whether an AI action has not run, has failed, or cannot be verified.
 
