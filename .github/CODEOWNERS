@@ -1,0 +1,13 @@
+# Review requests for all files go to the founding steward.
+* @jzbxhzdhhzbxvjajhc-netizen
+
+# Reserved project-boundary files always require steward review.
+/LICENSE @jzbxhzdhhzbxvjajhc-netizen
+/GOVERNANCE.md @jzbxhzdhhzbxvjajhc-netizen
+/MAINTAINERS.md @jzbxhzdhhzbxvjajhc-netizen
+/TRADEMARKS.md @jzbxhzdhhzbxvjajhc-netizen
+/COMMERCIAL.md @jzbxhzdhhzbxvjajhc-netizen
+/CITATION.cff @jzbxhzdhhzbxvjajhc-netizen
+/PROTOCOL.md @jzbxhzdhhzbxvjajhc-netizen
+/PROTOCOL.en.md @jzbxhzdhhzbxvjajhc-netizen
+

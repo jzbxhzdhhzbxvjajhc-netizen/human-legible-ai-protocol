@@ -1,0 +1,8 @@
+# SPDX-License-Identifier: MPL-2.0
+interface:
+  display_name: "AI 人话协议 · Human-Legible AI"
+  short_description: "Turn AI language into words people can use / 让 AI 说人话"
+  default_prompt: "Use $human-legible-ai and follow the language of this conversation or my next message. Ask in everyday language what real-life hassle I want to solve. / 请使用 $human-legible-ai，跟随当前对话或我下一句话的语言，用日常说法问我最想解决什么现实麻烦。"
+
+policy:
+  allow_implicit_invocation: true

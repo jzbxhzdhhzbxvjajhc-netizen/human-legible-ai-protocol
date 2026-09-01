@@ -1,0 +1,48 @@
+name: Protocol proposal / 协议提案
+description: Propose a rule, evaluation, translation, or compatibility change.
+title: "[Proposal] "
+labels:
+  - proposal
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Explain the ordinary-person problem before the technical solution. Security issues and exposed secrets must not be reported here; read SECURITY.md.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Ordinary-person problem
+      description: Who gets stuck, at what sentence or step, and why?
+    validations:
+      required: true
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Protocol mode
+      options:
+        - START — help someone begin
+        - CONTROL — help someone decide
+        - EXPLAIN — explain without creating more mystery
+        - Cross-mode or governance
+    validations:
+      required: true
+  - type: textarea
+    id: before_after
+    attributes:
+      label: Before and after
+      description: Show the current expression and the proposed human-legible expression.
+    validations:
+      required: true
+  - type: textarea
+    id: preserved
+    attributes:
+      label: Choice, consequence, risk, and next action
+      description: State what must remain true after translation.
+    validations:
+      required: true
+  - type: textarea
+    id: evaluation
+    attributes:
+      label: Evaluation case
+      description: Describe how the change can be tested.
+

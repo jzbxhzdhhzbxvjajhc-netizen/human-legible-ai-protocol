@@ -1,0 +1,37 @@
+name: Ordinary-person drop-off / 普通人掉队点
+description: Report a sentence or moment that made a non-technical user stop.
+title: "[Drop-off] "
+labels:
+  - ordinary-person-test
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not include API keys, passwords, private links, personal contact details, or real customer data.
+        请勿填写 API Key、密码、私人链接、联系方式或真实客户数据。
+  - type: textarea
+    id: original
+    attributes:
+      label: What did the AI or product say?
+      description: Remove private details. Quote only the minimum needed.
+    validations:
+      required: true
+  - type: textarea
+    id: user
+    attributes:
+      label: Where did the ordinary user get stuck?
+      description: What did they misunderstand, fear, or feel unable to ask?
+    validations:
+      required: true
+  - type: textarea
+    id: decision
+    attributes:
+      label: What decision or next step did they actually need?
+    validations:
+      required: true
+  - type: textarea
+    id: rewrite
+    attributes:
+      label: Suggested plain-language version
+      description: Optional. Avoid using a new unexplained term to explain the old one.
+

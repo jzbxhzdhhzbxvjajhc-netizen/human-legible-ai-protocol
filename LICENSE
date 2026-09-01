@@ -1,0 +1,37 @@
+# Licensing map
+
+Copyright (c) 2026 jzbxhzdhhzbxvjajhc-netizen and Human-Legible AI Protocol contributors.
+
+This repository deliberately uses two standard licenses. The file location decides which license applies.
+
+## Protocol material — CC BY-SA 4.0
+
+The following material is licensed under the Creative Commons Attribution-ShareAlike 4.0 International license (`CC-BY-SA-4.0`):
+
+- `PROTOCOL.md` and `PROTOCOL.en.md`;
+- `README.md` and `README.en.md`;
+- `ASSESSMENT.md`, `ROADMAP.md`, and `VERSION`;
+- everything under `guides/`, `examples/`, and `evals/`;
+- everything under `.github/`;
+- `.gitignore` and `CITATION.cff`;
+- `ATTRIBUTION.md`, `COMMERCIAL.md`, `CONTRIBUTING.md`, `GOVERNANCE.md`, `MAINTAINERS.md`, `ORIGIN.md`, `RELEASE_CHECKLIST.md`, `SECURITY.md`, and `TRADEMARKS.md`.
+
+Official license text: https://creativecommons.org/licenses/by-sa/4.0/legalcode
+
+In plain language: you may copy, adapt, redistribute, and use this material commercially. When you share it, you must give appropriate credit, link the license, say whether you changed it, and distribute adapted material under the same or a compatible license. The official license text controls.
+
+## Reference implementation — MPL 2.0
+
+Everything under `skill/` and `scripts/` is licensed under the Mozilla Public License 2.0 (`MPL-2.0`).
+
+Official license text: https://www.mozilla.org/MPL/2.0/
+
+In plain language: you may use this implementation, including inside a commercial product. If you distribute a modified MPL-covered file, that covered file must remain available in source form under MPL 2.0. Separate files in a larger product may use other terms. The official license text controls.
+
+## Project names and official status
+
+Neither license grants permission to claim that a fork, implementation, certification, badge, or service is official, sponsored, or endorsed by this project. See `TRADEMARKS.md`.
+
+## No warranty
+
+The material is provided without warranty. The warranty disclaimers and liability limits in the applicable standard license apply.

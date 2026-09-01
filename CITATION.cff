@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use or adapt this project, please cite the canonical repository and version. Licensing is file-scoped; see LICENSE."
+title: "Human-Legible AI Protocol"
+type: software
+authors:
+  - name: "jzbxhzdhhzbxvjajhc-netizen"
+version: "0.1.1"
+date-released: "2026-09-02"
+repository-code: "https://github.com/jzbxhzdhhzbxvjajhc-netizen/human-legible-ai-protocol"
+url: "https://github.com/jzbxhzdhhzbxvjajhc-netizen/human-legible-ai-protocol"
+keywords:
+  - artificial intelligence
+  - plain language
+  - human-computer interaction
+  - AI literacy
+  - protocol

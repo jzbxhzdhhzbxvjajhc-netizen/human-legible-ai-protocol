@@ -1,0 +1,14 @@
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+work/
