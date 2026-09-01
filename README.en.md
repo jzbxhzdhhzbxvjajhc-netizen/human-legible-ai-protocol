@@ -6,9 +6,11 @@
 
 > This does not teach ordinary people to speak AI. It makes AI speak in words ordinary people can use.
 
+**Here, “protocol” means rules for how AI communicates with people—not how AI systems exchange data with one another.** HLAI does not define a message format or replace JSON, YAML, APIs, or agent protocols.
+
 Technical teams often treat basic explanations as trivial. People outside tech can see the same unfamiliar words as proof that they are not qualified to ask. HLAI removes that false mystery: **people may describe the problem in their own words; the burden of translation belongs to the AI, not the user.**
 
-HLAI is a platform-independent communication protocol. It translates AI capabilities into real-life problems, and translates AI actions and technical choices into language people can understand, question, approve, delay, or refuse.
+HLAI is a platform-independent set of rules for AI-to-human communication. It translates AI capabilities into real-life problems, and translates AI actions and technical choices into language people can understand, question, approve, delay, or refuse.
 
 It prevents two moments of failure:
 

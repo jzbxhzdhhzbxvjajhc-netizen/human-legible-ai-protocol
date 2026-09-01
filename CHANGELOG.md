@@ -4,7 +4,10 @@ All notable changes to the canonical HLAI release are recorded here. Version cla
 
 ## Unreleased
 
-- No changes yet.
+### Changed
+
+- clarified on both README front pages that HLAI governs AI-to-human communication rather than defining an AI-to-AI message format or replacing JSON, YAML, APIs, or agent protocols;
+- 在中英文 README 首屏明确：HLAI 规范的是 AI 如何对人说清楚，而不是定义 AI 之间的报文格式，也不替代 JSON、YAML、API 或 Agent 协议。
 
 ## 0.2.0 - 2026-09-02
 
